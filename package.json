@@ -4,9 +4,9 @@
   "description": "backend project for youtube clone",
   "type": "module",
   "main": "index.js",
- "scripts": {
+  "scripts": {
     "dev": "nodemon -r dotenv/config src/index.js"
-},
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KRISHNAA9922/YouTube_Backend.git"
@@ -22,6 +22,8 @@
     "prettier": "^3.4.2"
   },
   "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mongoose": "^8.9.3"
