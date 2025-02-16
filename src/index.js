@@ -8,7 +8,7 @@ dotenv.config({
 })
 
 
-
+//DB connection here 
 connectDB()
 .then(() => {
     app.on("error", (error) => {
